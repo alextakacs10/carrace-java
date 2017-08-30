@@ -43,7 +43,7 @@ public class Motorcycle {
     }
 
     public void printResults() {
-        System.out.printf("%s '%s' drove %,d kms. Lowest speed: %s. Average speed: %s.%n",
+        System.out.printf("%s '%s' drove %,d km/s. Lowest speed: %s. Average speed: %s.%n",
                 (this.getClass().toString()).replace("class ", ""),
                 this.name, this.distanceTraveled, Collections.min(this.speedEveryHour), getAverageSpeed());
     }

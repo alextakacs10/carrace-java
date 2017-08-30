@@ -60,7 +60,7 @@ public class Car {
     }
 
     public void printResults() {
-        System.out.printf("%s '%s' drove %,d kms. Calibrated speed: %s. Average speed: %s.%n",
+        System.out.printf("%s '%s' drove %,d km/s. Top speed: %s. Average speed: %s.%n",
                 (this.getClass().toString()).replace("class ", ""),
                 this.name, this.distanceTraveled, this.normalSpeed, getAverageSpeed());
     }

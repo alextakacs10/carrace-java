@@ -76,19 +76,19 @@ public class Main {
     }
 
     public static void printRaceResults(HashMap<String, ArrayList> vehicles) {
-        System.out.println("\nCars race after 50 hours in order:\n");
+        System.out.println("\nResult for the race of cars:\n");
         ArrayList<Car> cars = vehicles.get("cars");
         for (Car car : cars) {
             car.printResults();
         }
 
-        System.out.println("\nMotorcycles race after 50 hours in order:\n");
+        System.out.println("\nResult for the race of motorcycles:\n");
         ArrayList<Motorcycle> motorcycles = vehicles.get("motorcycles");
         for (Motorcycle motorcycle : motorcycles) {
             motorcycle.printResults();
         }
 
-        System.out.println("\nTrucks race after 50 hours in order:\n");
+        System.out.println("\nResult for the race of trucks:\n");
         ArrayList<Truck> trucks = vehicles.get("trucks");
         for (Truck truck : trucks) {
             truck.printResults();

@@ -65,7 +65,7 @@ public class Truck {
     }
 
     public void printResults() {
-        System.out.printf("%s '%s' drove %,d kms. Broken down for %d hours.%n",
+        System.out.printf("%s '%s' drove %,d km/s. Broken for %d hours.%n",
                 (this.getClass().toString()).replace("class ", ""),
                 this.name, this.distanceTraveled, this.spentTimeAsBrokenDown);
     }
